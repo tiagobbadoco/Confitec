@@ -1,0 +1,32 @@
+<form>
+  <div class="form-group">
+    <label for="exampleInputName">Nome:</label>
+    <input type="text" class="form-control" id="nome" placeholder="Name" [(ngModel)]="usuario.nome" name="nome">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputName">Sobrenome:</label>
+    <input type="text" class="form-control" id="sobrenome" placeholder="Sobrenome" [(ngModel)]="usuario.sobrenome" name="sobrenome">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Email" [(ngModel)]="usuario.email" name="email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputName">Data de Nascimento:</label>
+    <input type="date" class="form-control" id="dataNascimento" [(ngModel)]="usuario.dataNascimento" name="dataNascimento">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail">Escolaridade:</label>
+    <select class="form-control" [(ngModel)]="usuario.escolaridade" name="escolaridade">
+      <option *ngFor="let escolaridade of escolaridades">
+        {{escolaridade.descricao}}
+      </option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="file">Historico Escolar:</label>
+    <input class="form-control" type="file" (change)="onChange($event)" accept=".pdf,.doc">
+  </div>
+  <br />
+  <button type="submit" class="btn btn-primary" (click)="save()">Save</button>
+</form>

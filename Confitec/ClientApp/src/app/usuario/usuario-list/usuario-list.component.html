@@ -1,0 +1,35 @@
+<h1 id="tableLabel">Gerenciar Usuários</h1>
+<br />
+<button class="btn-primary" (click)="adicionar()">Novo</button>
+<br />
+<table class='table table-striped' aria-labelledby="tableLabel">
+  <thead>
+    <tr>
+      <th>Ações</th>
+      <th>Id</th>
+      <th>Nome</th>
+      <th>Sobrenome</th>
+      <th>Email</th>
+      <th>Data de Nascimento</th>
+      <th>Escolaridade</th>
+      <th>Historico Escolar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let usuario of usuarios">
+      <td>
+        <button class="btn-primary" (click)="editar(usuario)">Editar</button>
+        <button class="btn-danger" (click)="deletar(usuario)">Excluir</button>
+      </td>
+      <td>{{usuario.id}}</td>
+      <td>{{ usuario.nome }}</td>
+      <td>{{ usuario.sobrenome}}</td>
+      <td>{{ usuario.email }}</td>
+      <td>{{ usuario.dataNascimento }}</td>
+      <td>{{ usuario.escolaridade }}</td>
+      <td>
+        <button class="btn-danger" (click)="baixarHistorico(usuario)">Baixar Histórico</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

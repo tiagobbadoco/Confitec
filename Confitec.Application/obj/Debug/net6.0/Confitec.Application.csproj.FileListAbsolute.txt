@@ -1,0 +1,17 @@
+D:\Projetos\Confitec\Confitec.Application\bin\Debug\net6.0\Confitec.Application.deps.json
+D:\Projetos\Confitec\Confitec.Application\bin\Debug\net6.0\Confitec.Application.dll
+D:\Projetos\Confitec\Confitec.Application\bin\Debug\net6.0\Confitec.Application.pdb
+D:\Projetos\Confitec\Confitec.Application\bin\Debug\net6.0\Confitec.Domain.dll
+D:\Projetos\Confitec\Confitec.Application\bin\Debug\net6.0\Confitec.Infrastructure.Data.dll
+D:\Projetos\Confitec\Confitec.Application\bin\Debug\net6.0\Confitec.Domain.pdb
+D:\Projetos\Confitec\Confitec.Application\bin\Debug\net6.0\Confitec.Infrastructure.Data.pdb
+D:\Projetos\Confitec\Confitec.Application\obj\Debug\net6.0\Confitec.Application.csproj.AssemblyReference.cache
+D:\Projetos\Confitec\Confitec.Application\obj\Debug\net6.0\Confitec.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Confitec\Confitec.Application\obj\Debug\net6.0\Confitec.Application.AssemblyInfoInputs.cache
+D:\Projetos\Confitec\Confitec.Application\obj\Debug\net6.0\Confitec.Application.AssemblyInfo.cs
+D:\Projetos\Confitec\Confitec.Application\obj\Debug\net6.0\Confitec.Application.csproj.CoreCompileInputs.cache
+D:\Projetos\Confitec\Confitec.Application\obj\Debug\net6.0\Confitec.Application.csproj.CopyComplete
+D:\Projetos\Confitec\Confitec.Application\obj\Debug\net6.0\Confitec.Application.dll
+D:\Projetos\Confitec\Confitec.Application\obj\Debug\net6.0\refint\Confitec.Application.dll
+D:\Projetos\Confitec\Confitec.Application\obj\Debug\net6.0\Confitec.Application.pdb
+D:\Projetos\Confitec\Confitec.Application\obj\Debug\net6.0\ref\Confitec.Application.dll
